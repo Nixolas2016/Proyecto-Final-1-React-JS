@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+/* import logo from './logo.svg';
 import './App.css';
 import NavBar from './NavBar/Navbar';
 import ItemListContainer from './ItemListContainer/ItemListContainer';
@@ -15,3 +15,4 @@ function App() {
 }
 
 export default App;
+ */

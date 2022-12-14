@@ -2,27 +2,23 @@ export const categorias = [
     {
         id:10,
         name:'Acción y aventura',
-        id:1
     },
     {
         id:11,
         name:'Familia',
-        id:2
+
     },
     {
         id:12,
         name:'Terror',
-        id:3
     },
     {
         id:13,
         name:'Comedia',
-        id:4
     },
     {
         id:14,
         name:'Ciencia ficción',
-        id:5
     },
 ]
 

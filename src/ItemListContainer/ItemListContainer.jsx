@@ -10,21 +10,20 @@ const ItemListContainer = () => {
   const {id} = useParams()
 
   const FilterCategory = new Promise((resolve,eject)=>{
-    setTimeout(()=>{
       const newPeliculas = Peliculas.filter((p)=> p.category == id)
       resolve(newPeliculas)
-    },2000)
   })
 
   useEffect(()=>{
     FilterCategory.then((response)=>{
       setItem({response})
+      console.log(response,item)
     })
   },[id])
   return(
     <div className='itemlistcontainer'>
       {
-        item.map((producto)=>{
+        item && item.map((producto)=>{
           return <Item producto={producto} />
         })
       }
