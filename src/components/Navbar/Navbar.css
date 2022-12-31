@@ -1,20 +1,22 @@
 .navbar{
-    background-color: antiquewhite;
+    background-color: gray;
     min-height: 100px;
 }
 
 .navbar__menu{
-    margin:16px;
+    color: white;
+    margin: 30px;
     align-items: center;
     justify-content: center;
 }
 
-.navbar__category{
+.navbar__category-link{
+    color: white;
     margin-top: 10px;
     margin-left: 16px;
     margin-right: 16px ;
     display: flex;
-    align-items: center;
+    justify-content: space-evenly;
     justify-content: center;
 }
 

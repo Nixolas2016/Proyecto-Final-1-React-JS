@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import {Peliculas,categorias} from '../mock'
+import {Peliculas,categorias} from '../../mock'
 import Item from '../Item/Item'
 import './ItemListContainer.css'
 import { useParams } from 'react-router-dom';
@@ -23,7 +23,6 @@ const ItemListContainer = () => {
   useEffect(()=>{
     FilterCategory.then((response)=>{
       setItem(response)
-      console.log(response,item)
     })
   },[id])
   return(
