@@ -8,7 +8,7 @@ const Cart = () =>{
 
     return(
         <div>
-            <img src="https://img.icons8.com/glyph-neue/2x/shopping-cart.png" width={100} height={100}/>
+            <img className='cart__logo' src="https://img.icons8.com/glyph-neue/2x/shopping-cart.png" width={100} height={100}/>
             <div className='cart__count'>
                 <p>{count}</p>
             </div>

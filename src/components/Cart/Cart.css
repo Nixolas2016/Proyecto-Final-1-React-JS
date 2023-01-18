@@ -12,3 +12,11 @@
     justify-content: space-around;
 
 }
+
+.cart__logo{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+    
+}

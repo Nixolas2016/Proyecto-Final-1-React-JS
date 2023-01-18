@@ -13,7 +13,7 @@ const ItemCount =({onChangeCount})=>{
     }
     return(
         <div>
-            <h4>Agregar item</h4>
+            <h4>Seleccione las Unidades</h4>
             <button onClick={()=>handlerSubtractionCount()}>-</button>
             <input type="text" value={value} onChange={(e)=> setValue(e.target.value)}/>
             <button onClick={()=>handlerAddCount()}>+</button>
